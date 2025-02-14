@@ -3,7 +3,7 @@ import sae_logo from "public/sae_logo.png";
 import opju_logo from "public/OPJU_LOGO.png";
 const Navbar = () => {
   return (
-    <header className="flex justify-between items-center max-w-[1361px] w-[90%] fixed  h-20 z-50 mt-7 rounded-[49px]  bg-gradient-to-r from-[rgba(255,255,255,0.15)] via-[rgba(115,115,115,0)] to-[rgba(255,255,255,0.5)] backdrop-blur-[75px] border-[3px] border-[#FF8400]">
+    <header className="flex justify-between items-center max-w-[1361px] w-[90%] mx-auto  left-1/2 -translate-x-1/2 fixed  h-20  mt-7 rounded-[49px]  bg-gradient-to-r from-[rgba(255,255,255,0.15)] via-[rgba(115,115,115,0)] to-[rgba(255,255,255,0.5)] backdrop-blur-[75px] border-[3px] border-[#FF8400]">
       {/* left-section  */}
       <section>
         <Image src={opju_logo} alt="opju-logo" className="w-36" />

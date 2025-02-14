@@ -1,5 +1,9 @@
-import Navbar from "@/components/Navbar";
+import HomePage from "@/components/HomePage";
 
 export default function Home() {
-  return <main className="h-screen w-full bg-[#2B2C2C]">hello</main>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
